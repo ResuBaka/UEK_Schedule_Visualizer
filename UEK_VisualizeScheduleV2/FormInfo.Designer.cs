@@ -70,6 +70,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button_close;
             this.ClientSize = new System.Drawing.Size(120, 155);
+            this.ControlBox = false;
             this.Controls.Add(this.button_close);
             this.Controls.Add(this.richTextBox_info);
             this.Controls.Add(this.label_test);
